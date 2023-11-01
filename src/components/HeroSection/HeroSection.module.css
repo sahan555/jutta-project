@@ -1,0 +1,130 @@
+main .featured {
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://sneakernews.com/wp-content/uploads/2022/03/adidas-shopping-guide-march-2022-footwear-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+main .featured h2 {
+  display: inline-block;
+  margin: 0;
+  width: 1050px;
+  font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman,
+    serif;
+  font-size: 68px;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+main .featured p {
+  display: inline-block;
+  margin: 0;
+  width: 1050px;
+  font-size: 24px;
+  color: #ffffff;
+}
+main .recentlyadded h2 {
+  display: block;
+  font-weight: normal;
+  margin: 0;
+  padding: 40px 0;
+  font-size: 24px;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid #eeeeee;
+}
+main .recentlyadded .products,
+main .products .products_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 40px 0 0 0;
+}
+main .recentlyadded .products .product,
+main .products .products_wrapper .product {
+  display: block;
+  overflow: hidden;
+  text-decoration: none;
+  width: 25%;
+  padding-bottom: 60px;
+}
+main .recentlyadded .products .product img,
+main .products .products_wrapper .product img {
+  /*transform: scale(1);*/
+  transition: all 1s;
+  background: #f5f5f4;
+  border-radius: 10px;
+  border: 1px solid #c7bfbf;
+  object-fit: contain;
+  width: 200px;
+  height: 200px;
+}
+main .recentlyadded .products .product .name,
+main .products .products_wrapper .product .name {
+  display: block;
+  color: #555555;
+  padding: 20px 0 2px 0;
+  font-size: 17px;
+  font-weight: 600;
+}
+main .recentlyadded .products .product .price,
+main .products .products_wrapper .product .price {
+  display: block;
+  color: #999999;
+}
+main .recentlyadded .products .product .rrp,
+main .products .products_wrapper .product .rrp {
+  color: #bbbbbb;
+  text-decoration: line-through;
+}
+main .recentlyadded .products .product:hover img,
+main .products .products_wrapper .product:hover img {
+  /*transform: scale(1.05);*/
+  /*transition: transform 1s;*/
+  border-color: #d92929;
+}
+main .recentlyadded .products .product:hover .name,
+main .products .products_wrapper .product:hover .name {
+  /*text-decoration: underline;*/
+  color: #d92929;
+}
+main .related_product {
+  overflow: hidden;
+}
+main .related_product .products {
+  display: block;
+  padding-bottom: 50px;
+  outline: 0;
+}
+
+/* .slick-slider .slick-arrow {
+    position: absolute;
+    background: #f53232;
+    box-shadow: none;
+    border: 1px solid #d92929;
+    padding: 10px 20px;
+    border-radius: 70px;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  
+  .slick-slider .slick-next {
+    right: 0;
+    bottom: 0;
+  }
+  .slick-slider .slick-prev {
+    left: 0;
+    bottom: 0;
+  } */
+main .related_product .products .product {
+  width: 100%;
+}
+main .related_product .products .product:focus,
+main .related_product .products .product:hover {
+  outline: 0 !important;
+}
