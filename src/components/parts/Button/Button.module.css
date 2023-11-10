@@ -1,0 +1,33 @@
+.btn{
+  background: #000;
+  color: #ffffff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 4px;
+  padding: 8px 16px;
+  border: 0;
+}
+.btn:hover {
+  color: #ffffff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  background: #666;
+}
+.btn:visited,
+.btn:focus {
+  color: #ffffff;
+}
+.btn_green {
+  background: #60b462;
+  width: 100%;
+  border-radius: 0;
+  padding: 10px 16px;
+}
+.btn_green svg {
+  margin-left: 5px;
+  vertical-align: middle;
+  margin-top: -2px;
+}
+.btn_green:hover {
+  background: #48994a;
+}

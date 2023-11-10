@@ -1,0 +1,53 @@
+.contact {
+  background: #f7f6f5;
+}
+.contact .contact_box {
+  background: #ffffff;
+  padding: 20px 20px 40px;
+}
+.contact .contact_box .title {
+  margin-bottom: 20px;
+}
+.contact .contact_box article p {
+  color: #414141;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+.contact .contact_box .form_group {
+  margin-bottom: 20px;
+}
+.contact .contact_box label {
+  font-size: 14px;
+  color: #414141;
+  font-weight: 400;
+  margin-bottom: 2px;
+  text-transform: capitalize;
+}
+.contact .contact_box label .red_required {
+  padding-left: 4px;
+  color: #d0111b;
+}
+.contact .contact_box .form_control {
+  border: 1px solid #e2e2e2;
+  border-radius: 0;
+  height: 44px;
+  background: #fff;
+  font-size: 15px;
+}
+.contact .contact_box textarea.form_control {
+  height: auto;
+}
+.contact .contact_box .btn_wrap {
+  padding-top: 15px;
+}
+.contact .contact_box .btn_wrap .btn {
+  width: 100%;
+  border-radius: 0;
+  padding: 10px 16px;
+}
+.contact .contact_box .btn_wrap .btn-green {
+  background: #c1c1c1;
+}
+.contact .contact_box .btn_wrap .btn_custom:hover {
+  background: #8e8e8e;
+}

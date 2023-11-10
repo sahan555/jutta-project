@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./Navigation.module.css";
 
 function Navigation() {
@@ -10,8 +11,9 @@ function Navigation() {
           </a>
         </div>
         <nav>
-          <a href="#">Home</a>
-          <a href="#">Products</a>
+          <Link to="/">Home</Link>
+          <Link to="/">Products</Link>
+          <Link to="/contact">Contact</Link>
         </nav>
         <div className={styles.link_icons}>
           <a href="#">
