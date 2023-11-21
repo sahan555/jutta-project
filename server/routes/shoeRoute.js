@@ -29,8 +29,8 @@ router.post(
       const shoe = new shoeModel({
         name: data.name,
         price: data.price,
-        info: data.details,
-        quantity: data.stockquantity,
+        info: data.info,
+        quantity: data.quantity,
         img: image,
       });
       await shoe.save();

@@ -13,7 +13,7 @@ const shoeSchema = new Schema(
       type: String,
     },
     info: {
-      type: Date,
+      type: String,
     },
     quantity: {
       type: String,
