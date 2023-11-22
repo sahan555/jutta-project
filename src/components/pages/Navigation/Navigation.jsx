@@ -12,7 +12,7 @@ function Navigation() {
         </div>
         <nav>
           <Link to="/">Home</Link>
-          <Link to="/">Products</Link>
+          <Link to="/products">Products</Link>
           <Link to="/contact">Contact</Link>
         </nav>
         <div className={styles.link_icons}>
